@@ -5,8 +5,8 @@ language: generic
 services: 
  - dockerss
 
-before_script:
- - cd docker-react-app/
+# before_script:
+#  - cd docker-react-app
  
 before_install: 
  - "echo start Docker Image Build"
