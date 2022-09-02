@@ -4,11 +4,11 @@ language: generic
 
 services: 
  - docker
-
+ 
 before_install: 
  - "echo start Docker Image Build"
  - docker build -t onusai/docker-react-app -t Dockerfile.dev .
- 
+
 script: 
  - docker run -e CI=true onusai/docker-react-app npm run test -- --coverage
 
