@@ -3,7 +3,7 @@ sudo: required
 language: generic
 
 services: 
- - dockerss
+ - docker
 
 # before_script:
 #  - cd docker-react-app
