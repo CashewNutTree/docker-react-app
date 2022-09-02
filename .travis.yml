@@ -3,8 +3,10 @@ sudo: required
 language: generic
 
 services: 
- - docker
+ - dockerss
 
+before_script:
+ - cd docker-react-app/
  
 before_install: 
  - "echo start Docker Image Build"
