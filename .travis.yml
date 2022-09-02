@@ -9,7 +9,7 @@ services:
 #  - cd docker-react-app
  
 before_install: 
- - "echo start Docker Image Build"
+ - echo "start Docker Image Build"
  - docker build -t onusai/docker-react-app -t Dockerfile.dev .
 
 script: 
